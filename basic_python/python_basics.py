@@ -8,6 +8,8 @@ A script to illustrate some basic plotting and matrix operations in Python
 @author: zettergm
 """
 
+#Change
+
 # Load external modules
 import numpy as np
 import numpy.linalg as nla
