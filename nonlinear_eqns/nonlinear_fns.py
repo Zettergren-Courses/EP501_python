@@ -14,11 +14,13 @@ def fun1(x):
     y=np.cos(x)
     return y
 
+def fun1_derivative(x):
+    yprime=-1.0*np.sin(x)
+    return yprime
 
 def fun3(x):
     y=x**2+6*x+10
     return y
-
 
 def fun3_deriv(x):
     yprime=2*x+6
