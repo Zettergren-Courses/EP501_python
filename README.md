@@ -23,6 +23,6 @@ Python scripts for EP501.  This repository is very much a work-in-progress.  I w
 
 1.  Located in ./nonlinear_eqns
 2.  Illustrates solutions to various nonlinear equations and systems
-3.  Contains examples of interval halving (interval\_halving.py) and false position (false\_position.py)
-4.  Contains various functions for exact Newton's method in 1D (newton\_exact.py) and 2D (newton2D\_exact.py)
+3.  Contains examples of interval halving (interval\_halving.py), false position (false\_position.py), Newton's method in 1D (Newton\_Rhapson.py), and Newton's method in 2D (Newton\_Rhapson2D.py - ***under construction***)
+4.  Contains various functions for exact Newton's method in 1D and 2D in the module (newton\_methods.py)
 5.  Contains a module with objective functions that can be used as examples to demonstrate root finding algorithms (nonlinear\_fns.py)
