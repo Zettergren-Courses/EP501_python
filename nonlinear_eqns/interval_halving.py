@@ -30,12 +30,8 @@ y=f1(x)
 
 
 # Initial interval spec
-#a0=np.pi/4
-#b0=np.pi
-#a0=0
-#b0=3*np.pi/2 + np.pi/4
-a0=0
-b0=4*np.pi
+a0=np.pi/4
+b0=np.pi
 a=a0
 b=b0
 
