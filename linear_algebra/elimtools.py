@@ -31,7 +31,8 @@ def Gauss_elim(A,b,verbose):
     # ordering array for pivoting and scaling
     order=np.arange(0,n,1)
         
-    # Gaussian elimination with pivoting and scalign
+    # Gaussian elimination with pivoting and scaling
+    ipmax=0
     for i in range(0,n-1):            # row being used for elimination, note latter argument of range is number of iterations
         # check whether pivoting should be done
         pivmax=0

@@ -26,3 +26,20 @@ def fun3_deriv(x):
     yprime=2*x+6
     return yprime
 
+def fun2D1(x,y):
+    f=x**3+y**3-3*x*y
+    return f
+
+def fun2D2(x,y):
+    g=x**2+y**2-1
+    return g
+
+def fun2D1_deriv(x,y):
+    fx=3*x**2-3*y
+    fy=3*y**2-3*x
+    return [fx,fy]
+
+def fun2D2_deriv(x,y):
+    gx=2*x
+    gy=2*y
+    return [gx,gy]
