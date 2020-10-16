@@ -51,7 +51,7 @@ plt.title("Performance of self-coded solution")
 
 
 # Solve same system sizes (diagonally dominant problem) with Jacobi iteration
-tol=1e-5
+tol=1e-9
 testtimes=np.zeros(nvals.size)     # time taken for each system size
 
 for ind, n in enumerate(list(nvals)):

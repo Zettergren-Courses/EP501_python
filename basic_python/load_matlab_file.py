@@ -18,3 +18,8 @@ A=datadictionary["A"]
 b=datadictionary["b"]
 b2=datadictionary["b2"]
 b3=datadictionary["b3"]
+
+filename="../../EP501_assignments/assignments/HW2/iterative_testproblem.mat"
+datadictionary=spio.loadmat(filename)
+Ait=datadictionary["Ait"]
+bit=datadictionary["bit"]
