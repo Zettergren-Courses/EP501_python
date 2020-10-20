@@ -25,11 +25,11 @@ Python scripts for EP501.  This repository is very much a work-in-progress.  I w
 2.  Illustrates solutions to various nonlinear equations and systems
 3.  Contains examples of interval halving (interval\_halving.py), false position (false\_position.py), Newton's method in 1D (Newton\_Rhapson.py), and Newton's method in 2D (Newton\_Rhapson2D.py)
 4.  Contains various functions for exact Newton's method in 1D and 2D in the module (newton\_methods.py)
-5.  Contains a module with objective functions that can be used as examples to demonstrate root finding algorithms (nonlinear\_fns.py)
+5.  Contains a module with objective functions that can be used as examples to demonstrate root finding algorithms (nonlinear\_fns.py).
 
 ### Polynomials and data fitting
 
 1. Located in ./polynomials
 2. Illustrates how to fit various types of polynomials to data
-3. Contains examples of direct polynomial fitting (direc_fit.py),...
+3. Contains examples of direct polynomial fitting (direc_fit.py), linear least squares fitting (least_squares.py), and bilinear/spline interpolation (interpolation_examples.py)
 
