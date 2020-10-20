@@ -31,5 +31,5 @@ Python scripts for EP501.  This repository is very much a work-in-progress.  I w
 
 1. Located in ./polynomials
 2. Illustrates how to fit various types of polynomials to data
-3. Contains examples of direct polynomial fitting (direc_fit.py), linear least squares fitting (least_squares.py), and bilinear/spline interpolation (interpolation_examples.py)
+3. Contains examples of direct polynomial fitting (direc_fit.py), linear least squares fitting (least\_squares.py), and bilinear/spline interpolation (interpolation\_examples.py)
 
