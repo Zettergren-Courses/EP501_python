@@ -15,20 +15,22 @@ import sys
 sys.path.append("../linear_algebra")
 from elimtools import Gauss_elim,backsub
 
-# Grid and indep. vars for problem
-n=96     #number of data points
-a=2      #y-intercept
-b=3      #slope
+# Grid and indep. vars for problem, linear function y=a+b*x
+n=40     #number of data points
+a=2      #y-intercept, linear fn.
+b=3      #slope, linear fn.
 minx=-5
 maxx=5
 xdata=np.linspace(minx,maxx,n)
 
 # Gemeration of Gaussian random numbers in Python
 dev=5.0
-mean=0.0
-noise=dev*np.random.randn(n)
+mean=0.5      #models callibration error in measurement, offset
+noise=dev*np.random.randn(n)+mean
 ytrue=a+b*xdata
 ydata=ytrue+noise
+
+# Plot of function and noisy data
 plt.figure(1)
 plt.plot(xdata,ytrue,"--")
 plt.plot(xdata,ydata,"o",markersize=6)
