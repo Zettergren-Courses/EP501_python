@@ -5,6 +5,9 @@ Created on Tue Aug 25 06:45:58 2020
 
 A script to illustrate some basic plotting and matrix operations in Python
 
+todo:
+1) need to add a section on printing matrices in a nice formatted way...
+
 @author: zettergm
 """
 
