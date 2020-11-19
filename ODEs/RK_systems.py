@@ -27,15 +27,15 @@ from scipy import integrate
 
 
 # Parameters of system
-q=-1.6e-19;
-m=9.1e-31;
-B=10000e-9;
-omega=q*B/m;    # frequency of oscillation (can be shown via solution by hand gives a SHO)
-tmin=0;
-tmax=2*2*np.pi/np.abs(omega);    # follow particle for two oscillation periods
-t=np.linspace(tmin,tmax,50);
-dt=t[1]-t[0];
-lt=t.size;
+q=-1.6e-19
+m=9.1e-31
+B=10000e-9
+omega=q*B/m    # frequency of oscillation (can be shown via solution by hand gives a SHO)
+tmin=0
+tmax=2*2*np.pi/np.abs(omega)    # follow particle for two oscillation periods
+t=np.linspace(tmin,tmax,50)
+dt=t[1]-t[0]
+lt=t.size
 
 
 # Main RK2 loop to solve for v
