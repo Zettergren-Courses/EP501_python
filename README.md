@@ -38,3 +38,9 @@ Python scripts for EP501.  This repository is very much a work-in-progress.  I w
 1.  located in ./differentiation
 2.  examples of finite difference formulas and applications
 3.  one-dimensional (derivative\_examples.py) and multi-dimensional scripts (e.g. gradient operator, partial\_derivative\_examples.py)
+
+### Ordinary differential equations (ODEs)
+
+1.  located in ./ODEs
+2.  examples of Methods for solving ordinary differential equations
+3.  Euler methods (Euler\_methods.py), Runge-Kutta solutions (RK\_methods.py), examples of resolving systems of ODEs (RK\_systems.py), and backward difference formula comparisons (BDF\_examples.py).
