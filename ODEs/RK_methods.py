@@ -61,6 +61,7 @@ plt.ylabel("y(t)")
 plt.plot(t,yRK2,"--")
 plt.plot(t,yRK4,"-.")
 plt.legend(("exact","RK2","RK4"))
+plt.show()
 
 
 # RK2 stability plot
@@ -74,3 +75,4 @@ plt.figure()
 plt.plot(adt,G,"o")
 plt.xlabel("a*dt")
 plt.ylabel("gain factor")
+plt.show()
